@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.categorySwitch {
+  border-radius: 0px 0px 0px 10px;
+  height: 100px;
+  border: none;
+}
