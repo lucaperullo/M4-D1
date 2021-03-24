@@ -1,9 +1,70 @@
 .App {
+  text-transform: uppercase;
   text-align: center;
+  background-color: #996435;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+}
+.navbarr {
+  left: 0;
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  z-index: 1;
+}
+.mainContent {
+  padding-top: 160px;
 }
 
-.categorySwitch {
-  border-radius: 0px 0px 0px 10px;
-  height: 100px;
+.category {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.25s ease;
+  color: white;
+
+  background-color: #c7eb52;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+
+  backdrop-filter: blur(10px);
+  width: 20%;
+  height: 10px;
   border: none;
+}
+.category:hover {
+  background-color: #bd2531c7;
+  height: 60px;
+}
+.start {
+  border-radius: 20px 0px 0px 20px;
+}
+.end {
+  border-radius: 0px 20px 20px 0px;
+}
+.image {
+  height: 370px;
+}
+.book {
+  margin-bottom: 50px;
+}
+.card {
+  transition: 0.25s ease;
+  background-color: #3d3c3c34 !important;
+  box-shadow: 1px 1px 20px;
+}
+.card:hover {
+  background-color: rgba(107, 107, 107, 0.445) !important;
+  box-shadow: inset 1px 1px 20px;
+}
+.card-body {
+  color: white;
+  background-color: transparent;
+}
+.foter {
+  margin: 0px !important;
+  width: 100% !important;
+}
+.footer {
+  height: 100px;
+  background-color: rgba(255, 0, 0, 0.164);
+  width: 100%;
 }

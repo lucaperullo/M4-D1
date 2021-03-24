@@ -1,11 +1,13 @@
 import "./App.css";
 import React from "react";
 import Home from "./components/Home.jsx";
+import Footer from "./components/Footer.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
       <Home />
+      <Footer />
     </div>
   );
 }
